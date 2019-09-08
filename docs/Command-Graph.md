@@ -32,7 +32,7 @@ Once you have it in that variable, we can save it to a file.
 
 If you are already comfortable working with GraphViz, you can have it process this `$path` file directly. Or you can use my helper function `Export-PSGraph -Source $file` to generate the final image.
 
-## Pipe to Export-Path
+## Pipe to Export-PSGraph
 
 The other thing we can do is pipe it directly to the export function to get our image.
 
